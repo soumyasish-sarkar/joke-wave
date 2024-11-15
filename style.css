@@ -1,0 +1,40 @@
+body {
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(135deg, #021431, #2b699f,#a0c4ff);  /* Light gradient for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+    color: #3a3d99;
+    border-radius: 8px;
+    border: 1px solid #b0d0ff;
+    padding: 15px;
+    background: linear-gradient(135deg, #6794bc, #cfe6ff);
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 2px;
+    color: #ffffff;  /* White text */
+    text-align: center;
+    background: none;  /* No background, removing the rectangular box */
+    border: none;  /* Ensuring no border */
+    padding: 0;  /* No padding */
+}
+
+footer p {
+    margin: 0;  /* Removing margin for no extra space */
+    color: #1a2556;  /* White text for the footer */
+    font-size: 10px;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Joke Wave",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "jokeup.html",
+        "default_icon": "jokewave.png"
+
+    },
+    "icons":{
+        "136": "jokewave.png"
+    },
+    "permissions":["activeTab"]
+}
